@@ -86,6 +86,7 @@ $("#addTeam").on("click", function(event) {
     topics.push(team);
     // Calling renderButtons which handles the processing of our movie array
     renderButtons();
+    $("#teamInput").val("");
 });
 
 // Function for displaying the movie info
